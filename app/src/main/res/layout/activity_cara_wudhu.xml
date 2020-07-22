@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Cara_Wudhu">
+
+    <ScrollView
+        android:layout_width="405dp"
+        android:layout_height="759dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="70dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="74dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gbr"
+                android:layout_width="281dp"
+                android:layout_height="174dp"
+                android:layout_marginTop="84dp"
+                android:src="@drawable/wudhu1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.696"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="373dp"
+                android:layout_height="1283dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/nunitoreg"
+                android:paddingLeft="30dp"
+                android:text="Tata Cara Melakukan Wudhu
+Ada 8 langkah dalam Tata Cara Wudhu Beserta Gambarnya berikut ulasanya:
+        \n\n1. Membaca ” BISMILLAAHIR-RAH-MAANIR-RAHIIM”, sambil mencuci kedua belah tangan sampai gelang tangan hingga bersih
+        \n\n2. Selesai membersihkan tangan terus berkumur 3x (tiga kali),
+        sambil membersihkan gigi hingga bersih agar tidak ada bekas makanan yang ada di gigi
+        \n\n3. Berkumur-kumur dan istinsyaq (menghirup air kedalam hidung) dengan telapak tangan kanan lalu istintsar
+        (menyemburkan air keluar) dengan tangan kiri (lihat gambar). Hal ini dilakukan sebanyak 3 kali.
+        \n\n4. Membasuh muka sebanyak 3 kali. Batasan muka adalah dari telinga satu ke telinga yang lain
+        dan dari batasan tumbuhnya rambut kepada diatas kening atau dahi hingga dagu\nSambil membaca niat wudhu seperti dibawah ini
+        \n\nبِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًا الِلَهِ تعَالَى\n
+Latin:
+        \nNawaitul wudhuu-a liraf’il hadatsil ashghari fardhal lilaahi ta’aalaa
+        \n\nArtinya:
+        \nAku niat berwudhu untuk menghilangkan hadats kecil, fardhu karena Allah.
+        \n\n5. Membasuh tangan kanan sebanyak 3 kali, lalu tangan kiri juga 3 kali. Dimulai dari jari dengan menyela-nyela jari jemari,
+        lalu menggosok-gosokkan air ke lengan, kemudian mencuci siku.Demikian pula dengan tangan kiri.
+        Atau bisa juga dari siku hingga ke ujung jari
+        \n\n6. Setelah selesai mencuci kedua belah tangan , anda harus menyapu sebagian rambut kepala sebanyak tiga kali lagi
+        \n\n7. Kemudian membasuh telinga yaitu dengan memasukkan kedua jari telunjuk ke dalam telinga dan kedua ibu jari dibagian luar telinga
+        \n\n8. Membasuh kaki kanan sebanyak 3 kali, dari ujung jari ke mata kaki.
+        Dengan cara mencuci mata kaki dan menyela-nyela jari jemari kaki. Lalu membasuh kaki kiri seperti itu pula"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                tools:layout_editor_absoluteX="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

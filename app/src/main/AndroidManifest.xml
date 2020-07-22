@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nail.akb.tubes.sholatkuyy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu_Sholat"/>
+        <activity android:name=".Shubuh"/>
+        <activity android:name=".Dzuhur"/>
+        <activity android:name=".Asar"/>
+        <activity android:name=".Magrib"/>
+        <activity android:name=".Isya"/>
+        <activity android:name=".Sholat_Fardu"/>
+        <activity android:name=".Doa"/>
+        <activity android:name=".Doa_Qunut"/>
+        <activity android:name=".Seputar_Wudhu"/>
+        <activity android:name=".Syarat_Wudhu"/>
+        <activity android:name=".Tatacara"/>
+        <activity android:name=".Tatacara_Sholat"/>
+        <activity android:name=".Doa_minta_ilmu"/>
+        <activity android:name=".Doa_Ortu"/>
+        <activity android:name=".Doa_Selamat"/>
+        <activity android:name=".Keluar_Masjid"/>
+        <activity android:name=".Masuk_Masjid"/>
+        <activity android:name=".Pendahuluan"/>
+        <activity android:name="Syarat_Sholat"/>
+        <activity android:name=".Fardu_Wudhu"/>
+        <activity android:name=".Cara_Wudhu"/>
+        <activity android:name=".Batal_Wudhu"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Daftar"/>
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

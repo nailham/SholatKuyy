@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Doa_minta_ilmu">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="268dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/doa3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="348dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/nunitobold"
+        android:text="DOA KEPADA ORANG TUA"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gbr"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="411dp"
+        android:layout_height="428dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/akb5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="392dp"
+            android:layout_height="413dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunitoreg"
+            android:paddingLeft="30dp"
+            android:text=" اللَّهُمَّ اغْفِرْ لِى وَلِوَ الِدَىَّ وَارْ حَمْهُمَا كَمَا رَبَّيَا نِى صَغِيْرًا\n\n
+Latin:\n
+Allahumma Fighfirlii Wa Liwaa Lidhayya Warham Humaa Kamaa Rabbayaa Nii Shaghiraa\n\n
+Artinya:\n\n
+Ya Allah, ampunilah semua dosa-dosaku dan dosa-dosa kedua orang tuaku,
+    serta berbelaskasihlah kepada mereka berdua seperti mereka berbelas kasih kepada diriku di waktu aku kecil."
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

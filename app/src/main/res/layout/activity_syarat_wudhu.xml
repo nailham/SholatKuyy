@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Syarat_Wudhu">
+
+    <ScrollView
+        android:layout_width="382dp"
+        android:layout_height="696dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="100dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="74dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gbr"
+                android:layout_width="292dp"
+                android:layout_height="154dp"
+                android:layout_marginTop="76dp"
+                android:src="@drawable/wudhu1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="227dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/nunitobold"
+                android:text="SYARAT WUDHU"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="368dp"
+                android:layout_height="1900dp"
+                android:layout_marginTop="220dp"
+                android:fontFamily="@font/nunitoreg"
+                android:paddingLeft="30dp"
+                android:text="1. Islam\n    Maka tidak syah wudhunya orang kafir atau orang murtad.\n\n
+2. Tamiyiz\n    Yang dimaksud dengan tamiyiz adalah seseorang yang memahami dari pada percakapan atau bisa makan sendiri, minum sendiri dan membersihkan buang hajat sendiri atau bisa membedakan antara kanan dan kiri atau juga bisa membedakan antara kurma dan bara api.\n\n
+3. Bersih dari haid dan nifas\n    Haid adalah darah yang keluar pada waktu tertentu bagi setiap wanita yang sudah dewasa. sedangkan nifas adalah darah yang keluar setelah melahirkan.\n\n
+4. Tidak adanya sesuatupun yang mencegah sampainya air ke kulit anggota wudhu\n     Yaitu bersihnya kulit anggota wudhu dari semisal cat atau kotoran-kotoran lain yang menempel di kulit sehingga air tidak bisa masuk.\n\n
+5. Tidak ada sesuatupun di anggota wudhu yang bisa merubah air\n    Yaitu bersihnya anggota tubuh yang bisa merubah air dan mencabut nama air tersebut. contohnya seperti tinta dan jakfaron yang banyak.\n\n
+6. Mengetahui kefardhuan/kewajiban dari pada wudhu\n   Seorang yang wudhu harus mengetahui bahwasannya hukum dari pada wudhu adalah fardhu. jia dia meyakini bahwa wudhu hukumnya adalah sunnah maka tidak syah wudhunya.\n\n
+7. Tidak meyakini kefardhuan/kewajiban dari pada rukun-rukun wudhu adalah sunnah\n      Seseorang yang wudhu tidak boleh meyakini rukun-rukun wudhu memiliki hukum sunnah semisal dia meyakini bahwasannya
+membasuh kedua tangan sampai siku-siku adalah sunnah.\n\n
+8. Memakai air yang suci dan mensucikan\n   Yaitu air yang digunakan adalah air yang bersih dari najis dan juga bukan air musta'mal. air musta'mal adalah air yang digunakan pertama kali dalam bersuci (basuhan wajib).\n\n
+9. Masuknya waktu\n   Seseorang yang terus menerus mengeluarkan najis (anyang anyangan-beser) maka wudhunya harus masuk waktu sholat. diluar waktu sholat tidak syah.\n\n
+10. Muwalah\n   Yaitu tanpa adanya jeda waktu antara setiap basuhan wudhu dan sholat bagi yang selalu hadas. jadi setelah melaksanakan wudhu diharuskan langsung melaksanakan sholat.
+NB : syarat nomer 9 dan 10 berlaku bagi yang selalu mengeluarkan hadast secara terus menerus ( anyang-anyangan).\n\n"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                tools:layout_editor_absoluteX="8dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>

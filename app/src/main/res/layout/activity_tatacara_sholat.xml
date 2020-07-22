@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Tatacara_Sholat">
+
+    <ScrollView
+        android:layout_width="383dp"
+        android:layout_height="699dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="130dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="62dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gbr"
+                android:layout_width="274dp"
+                android:layout_height="152dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/solat1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="371dp"
+                android:layout_height="2813dp"
+                android:layout_marginTop="204dp"
+                android:fontFamily="@font/nunitoreg"
+                android:paddingLeft="30dp"
+                android:text="Salat merujuk kepada ibadah pemeluk agama Islam. Menurut syariat Islam,
+praktik salat harus sesuai dengan segala petunjuk tata cara Nabi Muhammad sebagai figur pengejawantah perintah Allah.
+Umat muslim diperintahkan untuk mendirikan salat karena menurut Surah Al-'Ankabut dapat mencegah perbuatan keji dan mungkar.
+\n\n1.MEMBACA LAFADZ NIAT SHOLAT (CONTOH NIAT SUBUH) \n\n Usholli Fardlosh shubhi rok'ataini mustaqbilal qiblati adaa-an lillaahi ta'aala.\n\nArtinya ;
+Aku niat melakukan shalat fardu subuh 2 rakaat, sambil menghadap qiblat,saat ini,karena Allah ta'ala
+\n\n2.MENGANGKAT BELAH TANGAN\n\n (Allahu Akbar)Allah maha besar
+\n\n3.SETELAH TAKBIR IHRAM LALU MEMBACA DOA IFTITAH DALAM HATI\n\nInnii wajjahtu wajhiya lilladzii fatharas samaawaati wal-ardha,haniifam muslimaw wamaa ana minal musyrikiin.
+Inna shalaati wanusukii wamahyaaya wamamaatii lillaahi rabbil ‘alaamiina. Laa syariika lahu wabidzaalika umirtu wa ana minal muslimiina.”\n\nArtinya :\n
+Sesungguhnya aku menghadapkan mukaku kepada Dzat yang menciptakan langit dan bumi dengan keadaan lurus dan berserah diri, dan bukannya aku termasuk dalam golongan musyrik.
+Sesungguhnya sembahyangku, ibadatku, hidupku dan matiku hanya untuk Allah semesta alam. Tiada sekutu bagi-Nya, karena itu aku rela diperintah dan aku ini adalah golongan orang Islam.
+\n\n4.SETELAH DOA IFTITAH LALU DITERUSKAN DENGAN MEMBACA SURAT AL-FATIHAH\n\n >.Bismillahirrohmanirrohim\n
+>.Alhamdulillahi robbil 'alamin,\n
+>.Arrohmaanirrahiim\n
+>.Maaliki yaumiddiin,\n
+>.Iyyaka na'budu waiyyaaka nasta'iin,\n
+>.Ihdinasshirratal mustaqim,\n>.Syiratalladziina an’amta alaihim, ghairil maghduubi 'alaihim waladdhaaalliin.\n\n
+5.LALU DITERUSKAN DENGAN SURAT-SURAT PENDEK\n\n>.Qul huwa allaahu ahadun,\n
+>. Allaahu shamadu\n
+>. lam yalid walam yuuladu\n
+>. walam yakun lahu kufuwan ahadun.
+\n\n6.RUKUK
+\n(PUNGGUNG DAN KEPALA SUPAYA RATA) setelah cukup sempurna bacalah tasbih sebagai berikut:\n\n
+Subhaana rabbiyal 'adzhiimi wabihamdih (3x)
+\nArtinya :\n
+Maha Suci Tuhan (Allah) Yang Maha Besar lagi Maha Terpuji.
+\n\n7.I'TIDAL\n Setelah rukuk, terus bangkitlah tegak dengan mengangkat kedua belah tangan setentang telinga, seraya membaca sebagai berikut :\n\n
+SamiAllahulimanhamidah, Rabbana Lakal Hamdu Mil Ussamaawati Wamil Ul Ardi Wamil Umaasikta Min Syai'in Ba'du.
+\n\n8.SUJUD (dua kali setiap rokaat)\n(Setelah melakukan i'tidal terus sujud sambil mengucapkan allahu akbar( tersungkur ke bumi ) dengan meletakkan dahi ke bumi dan ketika turun dan posisi sempurna lalu membaca sebagai berikut)\n\n
+Subhaana rabbiyal a'laa wabihamdih (3x)
+\n\n9.DUDUK DIANTARA DUA SUJUD\n Setelah sujud lalu membaca allahu akbar dan duduk membaca :\n\n
+Rabbighfirlii warhamnii wajburnii warfa'nii warzuqnii wahdinii wa 'aafinii wa'fu 'annii
+\n\n10.Lalu bangkit lagi melakukan rokaat kedua dengan bacaan seperti di atas (setelah sujud kedua lalu membaca TASYAHUD AKHIR)
+\n\n11.TASYAHUD (AKHIR)\nDengan cara duduk kaki kanan tegak dan telapak kaki kiri di duduki dan membaca bacaan tasyahud akhir dan doa\n\n
+Attahiyyaatul mubaarokaatush sholawaatuth thoyyibaatu lillaah. Assalaamu ‘alaika ayyuhan nabiyyu wa rohmatulloohi wa barokaatuh.
+    Assalaaamu’alainaa wa ‘alaa ‘ibaadillaahish shoolihiin. Asyhadu allaa ilaaha illallooh wa asyhadu anna Muhammadar rosuulullooh.
+        Allahumma Shalli Ala Sayyidina Muhammad Wa Ala Ali Sayyidina Muhammad. Kama Shollaita Ala Sayyidina Ibrahim wa alaa aali sayyidina Ibrahim,
+        wabaarik ala Sayyidina Muhammad Wa Alaa Ali Sayyidina Muhammad,
+        Kama barokta alaa Sayyidina Ibrahim wa alaa ali Sayyidina Ibrahim, Fil aalamiina innaka hamiidummajid.\n\n
+11.SALAM\nSambil mengucapkan:\n\nAssalaamu 'alaikum warahmatullaah"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                tools:layout_editor_absoluteX="5dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="168dp"
+                android:fontFamily="@font/nunitobold"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:text="RUKUN SHOLAT"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/gbr" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

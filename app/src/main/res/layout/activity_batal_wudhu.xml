@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Batal_Wudhu">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="253dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/wudhu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitobold"
+        android:text="Yang Membatalkan Wudhu"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gbr"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="444dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/akb5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="390dp"
+            android:layout_height="395dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunitoreg"
+            android:paddingLeft="30dp"
+            android:text="Dalam kitab matan al-Ghoyatu wat Taqrib karangan Abi Suja diterangkan bahwa
+        perkara yang dapat membatalkan wudhu ada enam:
+\n\n1. Sesuatu yang keluar dari kedua jalan (kemaluan depan maupun belakang),
+\n2.Tidur tidak dalam keadaan duduk,
+\n3. Hilangnya akal sebab mabuk atau sakit,
+\n4. Bersentuhan (kulit) pria dan wanita yang bukan mahram tanpa penghalang,
+\n5. Menyentuh kemaluan manusia dengan telapak tangan,
+\n6. Menyentuh lubang dubur manusia."
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

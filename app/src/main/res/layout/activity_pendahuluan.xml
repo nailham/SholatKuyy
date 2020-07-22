@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Pendahuluan">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="74dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="513dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/akb2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="569dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/akb5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="569dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/nunitoreg"
+            android:paddingLeft="30dp"
+            android:text="Pengertian Shalat\n\nMenurut bahasa shalat artinya adalah berdoa, sedangkan menurut istilah shalat adalah suatu perbuatan serta perkataan yang dimulai
+dengan takbir dan diakhiri dengan salam sesuai dengan persyaratkan yang ada.
+Secara lahiriah shalat berarti beberapa ucapan dan perbuatan yang dimulai dengan takbir dan diakhiri dengan salam, yang dengannya kita beribadah kepada Allah menurut syarat-syarat yang telah ditentukan.
+Adapun secara hakikinya ialah” berhadapan hati (jiwa) kepada Allah, secara yang mendatangkan takut kepada-Nya serta menumbuhkan didalam jiwa rasa kebesarannya dan kesempurnaan kekuasaan-Nya”atau” mendahirkan hajat dan keperluan kita
+kepada Allah yang kita sembah dengan perkataan dan pekerjaan atau dengan kedua-duanya.
+"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

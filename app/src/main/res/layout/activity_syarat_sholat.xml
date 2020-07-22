@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Syarat_Sholat">
+
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="759dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="70dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="74dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gbr"
+                android:layout_width="272dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="68dp"
+                android:src="@drawable/doa4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.698"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="227dp"
+                android:layout_height="35dp"
+                android:fontFamily="@font/nunitobold"
+                android:text="SYARAT SHOLAT"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="387dp"
+                android:layout_height="569dp"
+                android:layout_marginTop="212dp"
+                android:fontFamily="@font/nunitoreg"
+                android:paddingLeft="30dp"
+                android:text="Syarat-syarat Shalat adalah sesuatu hal yang harus di penuhi sebelum kita melaksanakan shalat. Syarat Shalat di bagi menjadi 2 yaitu:
+                \n\n1.Syarat wajib Shalat adalah syarat yang wajib di penuhi dan tidak bisa di nego-nego lagi. Seperti Islam,
+                berakal dan tamziz atau baligh. suci dari haid dan nifas serta telah mendengar ajakan dakwah islam.\n\n2.Syarat sah shalat itu ada 8 yaitu: \n\n>Suci dari dua hadas\n>Suci dari najis yang berada pada pakaian, tubuh, dan tempat shalat.\n>Menutup aurot Aurat laki-laki yaitu baina surroh wa rukbah( antara pusar sampai lutut), sedangkan aurot perempuan adalah jami’i badaniha illa wajha wa kaffaien (semua anggota tubuh kecuali wajah dan kedua telapak tangan). \n>Menghadap kiblat\n> Mengerti kefarduan Shalat \n>Tidak meyakini salah satu fardu dari beberapa fardu shalat sebagaisuatu sunnah.
+                \n>Menjauhi hal-hal yang membatalkan Shalat."
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                tools:layout_editor_absoluteX="10dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

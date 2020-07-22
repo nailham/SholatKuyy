@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/akb3"
+    tools:context=".Doa_Qunut">
+
+    <ScrollView
+        android:layout_width="393dp"
+        android:layout_height="692dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="70dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="74dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gbr"
+                android:layout_width="281dp"
+                android:layout_height="174dp"
+                android:layout_marginTop="84dp"
+                android:src="@drawable/doa4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.696"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="382dp"
+                android:layout_height="1273dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/nunitoreg"
+                android:paddingLeft="30dp"
+                android:text="للّهُمَّ اهْدِنِىْ فِيْمَنْ هَدَيْتَ\n
+وَعَافِنِى فِيْمَنْ عَافَيْتَ\n
+وَتَوَلَّنِىْ فِيْمَنْ تَوَلَّيْتَ\n\
+وَبَارِكْ لِىْ فِيْمَا اَعْطَيْتَ\n
+\nِيْ شَرَّمَا قََضَيْتَ،
+فَاِ نَّكَ تَقْضِىْ وَلاَ يُقْضَى عَلَيْكَ\n
+وَاِ نَّهُ لاَ يَذِلُّ مَنْ وَالَيْتَ\n
+وَلاَ يَعِزُّ مَنْ عَادَيْتَ\n
+تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ\n
+فَلَكَ الْحَمْدُ عَلَى مَا قَضَيْتَ\n
+وَاَسْتَغْفِرُكَ وَاَتُوْبُ اِلَيْكَ\n
+وَصَلَّى اللهُ عَلَى سَيِّدَنَا مُحَمَّدٍ النَّبِيِّ اْلاُمِّيِّ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمَ\n
+Latin :\n\n
+Allah hummah dinii fiiman hadait.\n
+Wa'aa finii fiiman 'aafait.\n
+Watawallanii fiiman tawal-laiit.\n
+Wabaariklii fiimaa a'thait.\n
+Waqinii syarramaa qadhait.\n
+Fainnaka taqdhii walaa yuqdha 'alaik.\n
+Wainnahu laayadzilu man walait.\n
+Walaa ya'izzu man 'aadait.\n
+Tabaa rakta rabbanaa wata'aalait.\n
+Falakalhamdu 'alaa maaqadhait.\n
+Astaghfiruka wa'atuubu ilaik.\n
+Wasallallahu 'ala Sayyidina Muhammadin nabiyyil ummiyyi. Wa'alaa aalihi washahbihi Wasallam.\n\n
+
+Artinya :\n
+Ya Allah tunjukkanlah akan daku sebagaiman mereka yang telah Engkau tunjukkan\n
+Dan berilah kesihatan kepadaku sebagaimana mereka yang Engkau telah berikan kesihatan\n
+Dan peliharalah daku sebagaimana orang yang telah Engkau peliharakan\n
+Dan berilah keberkatan bagiku pada apa-apa yang telah Engkau kurniakan\n
+Dan selamatkan aku dari bahaya kejahatan yang Engkau telah tentukan\n
+Maka sesungguhnya Engkaulah yang menghukum dan bukan kena hukum\n
+Maka sesungguhnya tidak hina orang yang Engkau pimpin\n
+Dan tidak mulia orang yang Engkau memusuhinya\n
+Maha Suci Engkau wahai Tuhan kami dan Maha tinggi Engkau\n
+Maha bagi Engkau segala pujian di atas yang Engkau hukumkan\n
+Ku memohon ampun dari Engkau dan aku bertaubat kepada Engkau\n
+(Dan semoga Allah) mencurahkan rahmat dan sejahtera ke atas junjungan kami Nabi Muhammad, keluarga dan sahabatnya\n"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="@+id/gbr"
+                tools:layout_editor_absoluteX="16dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
