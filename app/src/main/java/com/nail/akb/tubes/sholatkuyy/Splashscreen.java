@@ -7,6 +7,14 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Splashscreen extends AppCompatActivity {
+   /*
+    tanggal :25-06-2020
+    deskripsi : membuat java class,layout,logo project,mengkoneksikan project ke firebase,menyimpan data dengan firebase
+    nim :10117138
+    nama :Ilham Nurjaman
+    kelas :IF4/AKB
+     */
+
     private int waktu_loading = 4000;
 
     //4000=4 detik

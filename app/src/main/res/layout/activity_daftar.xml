@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="371dp"
-        android:layout_height="168dp"
+        android:layout_width="368dp"
+        android:layout_height="174dp"
         android:src="@drawable/akb2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -24,17 +24,17 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunitobold"
         android:text="REGISTER"
-        android:textColor="#000000"
+        android:textColor="@color/colorBlack"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/nama"
+        android:id="@+id/nama_lengkap"
         android:layout_width="291dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="36dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="72dp"
         android:background="@drawable/backputih"
         android:hint="Name"
         android:paddingLeft="10dp"
@@ -45,22 +45,23 @@
     <EditText
         android:id="@+id/username"
         android:layout_width="291dp"
-        android:layout_height="60dp"
+        android:layout_height="55dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/backputih"
         android:hint="Username"
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nama" />
+        app:layout_constraintTop_toBottomOf="@+id/nama_lengkap" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="291dp"
-        android:layout_height="60dp"
+        android:layout_height="55dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/backputih"
         android:hint="Password"
+        android:inputType="textPassword"
         android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,12 +69,12 @@
 
     <Button
         android:id="@+id/tmbl_daftar"
-        android:layout_width="204dp"
+        android:layout_width="150dp"
         android:layout_height="59dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/bg_btn_masuk"
         android:fontFamily="@font/nunitobold"
-        android:text="REGISTER"
+        android:text="DAFTAR"
         android:textColor="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

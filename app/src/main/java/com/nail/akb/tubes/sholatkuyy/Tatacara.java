@@ -10,6 +10,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class Tatacara extends AppCompatActivity {
+   /*
+    tanggal :25-06-2020
+    deskripsi : membuat java class,layout,logo project,mengkoneksikan project ke firebase,menyimpan data dengan firebase
+    nim :10117138
+    nama :Ilham Nurjaman
+    kelas :IF4/AKB
+     */
+
     LinearLayout sholat,syarat;
     ImageView back;
     @Override

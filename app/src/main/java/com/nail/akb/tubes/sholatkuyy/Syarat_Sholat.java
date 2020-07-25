@@ -7,6 +7,14 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class Syarat_Sholat  extends AppCompatActivity {
+    /*
+    tanggal :25-06-2020
+    deskripsi : membuat java class,layout,logo project,mengkoneksikan project ke firebase,menyimpan data dengan firebase
+    nim :10117138
+    nama :Ilham Nurjaman
+    kelas :IF4/AKB
+     */
+
     ImageView back;
 
     @Override

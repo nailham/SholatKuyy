@@ -1,8 +1,14 @@
 <resources>
-    <string name="app_name">Tubes_nail</string>
-    <string name="uls_masuk">
-    </string>
+    <string name="app_name">Sholat KUYY</string>
 
-    <string name="uls_keluar">doa selamat,button,syarat wudhu,tatacara wuhu
-    </string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="phonenumber">Nomor Telepon</string>
+    <string name="forget">Lupa password?</string>
+    <string name="masuk">Masuk</string>
+    <string name="keluar">Logout</string>
+    <string name="register">Daftar</string>
+    <string name="daftar">Belum punya akun? Yuk Daftar</string>
 </resources>

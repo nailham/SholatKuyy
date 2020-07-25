@@ -34,6 +34,8 @@
         android:id="@+id/textView2"
         android:layout_width="299dp"
         android:layout_height="54dp"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/colorBlack"
         android:text="SHOLAT KUYY"
         android:textAlignment="center"
         android:textSize="25dp"

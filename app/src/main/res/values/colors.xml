@@ -7,4 +7,5 @@
     <color name="greenLogin">#96EB64</color>
     <color name="greenPressed">#32AF5A</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
 </resources>

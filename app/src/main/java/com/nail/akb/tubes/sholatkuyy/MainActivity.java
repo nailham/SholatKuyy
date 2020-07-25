@@ -11,6 +11,13 @@ public class MainActivity extends AppCompatActivity {
 
     private Button button;
 
+    /*
+    tanggal :25-06-2020
+    deskripsi : membuat java class,layout,logo project,mengkoneksikan project ke firebase,menyimpan data dengan firebase
+    nim :10117138
+    nama :Ilham Nurjaman
+    kelas :IF4/AKB
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
